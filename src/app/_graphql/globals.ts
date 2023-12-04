@@ -1,4 +1,4 @@
-import { LINK_FIELDS } from './link'
+import {LINK_FIELDS} from './link'
 
 export const HEADER = `
   Header {
@@ -16,6 +16,7 @@ query Header {
 
 export const FOOTER = `
   Footer {
+    copyright
     navItems {
       link ${LINK_FIELDS({ disableAppearance: true })}
 		}
